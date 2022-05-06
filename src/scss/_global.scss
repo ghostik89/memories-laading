@@ -1,10 +1,10 @@
-// 
+//
 // Global
 //
 
 // Scroll padding for all scroll targets on page used with
 // native CSS smooth scrolling
-// 
+//
 // https://caniuse.com/?search=scroll-padding
 
 html {
@@ -44,4 +44,17 @@ section {
 
 .app-badge {
     height: 3rem;
+}
+
+.btn-primary{
+    color: #ffffff;
+    &:hover{
+        color: #E4D9FF;
+    }
+    &:active{
+        color: #E4D9FF;
+    }
+    &:focus{
+        color: #E4D9FF;
+    }
 }

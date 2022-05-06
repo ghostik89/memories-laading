@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title New Age - Start Bootstrap Theme
+        title Memories
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -20,6 +20,7 @@ html(lang='en')
         link(href='https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&display=swap', rel='stylesheet')
         link(href='https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&display=swap', rel='stylesheet')
         link(href='https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&display=swap', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap', rel='stylesheet')
 
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
@@ -29,7 +30,8 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.shadow-sm
             .container.px-5
-                a.navbar-brand.fw-bold(href='#page-top') Start Bootstrap
+                img(src='assets/img/logo.svg', alt='logo', height='25px')
+                a.navbar-brand.fw-bold(href='#page-top') MEMORIES
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.bi-list
@@ -37,8 +39,6 @@ html(lang='en')
                     ul.navbar-nav.ms-auto.me-4.my-3.my-lg-0
                         li.nav-item
                             a.nav-link.me-lg-3(href='#features') Features
-                        li.nav-item
-                            a.nav-link.me-lg-3(href='#download') Download
                     button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0(data-bs-toggle='modal', data-bs-target='#feedbackModal')
                         span.d-flex.align-items-center
                             i.bi-chat-text-fill.me-2
@@ -171,7 +171,7 @@ html(lang='en')
                     a(href='#!') Terms
                     span.mx-1 &middot;
                     a(href='#!') FAQ
-        
+
         include includes/feedback-modal.pug
 
         // Bootstrap core JS
